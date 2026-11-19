@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: Generate stats card
-        uses: stats-organization/github-readme-stats-action@d82657a0e215a28ec48bfc9b3987999a279f93be # v1
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
         with:
           card: stats
           options: username=TheNeoThesis&show_icons=true&theme=dracula&include_all_commits=true&hide=issues
@@ -24,7 +24,7 @@ jobs:
           token: ${{ secrets.GRS_TOKEN }}
 
       - name: Generate top languages card
-        uses: stats-organization/github-readme-stats-action@d82657a0e215a28ec48bfc9b3987999a279f93be # v1
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
         with:
           card: top-langs
           options: username=TheNeoThesis&layout=compact&theme=dracula&langs_count=8
